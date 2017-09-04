@@ -1,0 +1,205 @@
+/* -----------------------------------------  CLEARFIX  ---------------------------------------   */
+.clearfix {
+    clear: both;
+}
+
+
+/* -----------------------------------------  WRAPPER  ---------------------------------------   */
+.wrapper {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+}
+
+
+/* -----------------------------------------  INDEXSEITE ---------------------------------------   */
+
+.helligkeit {
+    opacity: 0.2;
+}
+
+.wrapper_middle {
+    margin-left: 50%;
+    background-color: black;
+}
+
+.wrapper_button {
+    position: absolute;
+    width:500px; height:800px;
+    left:50%; top:50%;
+    margin-left:-150px; margin-top:-150px;
+    text-align: center;
+
+}
+
+.hidden {
+   display: none;
+}
+
+.Index_Level {
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    line-height: 1;
+    min-height: 160px;
+    overflow: hidden;
+    background-color: beige;
+}
+
+
+select option {
+    padding: 5px;
+
+}
+
+
+/* -----------------------------------------  SPIELFELD  ---------------------------------------   */
+
+.Spielfeld {
+    min-height: 600px;
+    width: 70%;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: black;
+    float: left;
+}
+
+
+/*   Buttons im Spiielfeld */
+/* Diese Klasse überschreibt die Objektklasse Keyboard
+.Spielfeld input{
+    color: black;
+    background-color: white;
+    font-size: 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+*/
+
+
+/*   Unterelement   */
+.box {
+    margin: 10px;
+    padding: 5px;
+    background-color: gray;
+    text-align: center;
+}
+
+.Keyboard {
+    background-color: black;
+}
+
+/*   Buttons im Spiielfeld - Zudem muss Box oberhalb stehen wegen der Reihenfolge des CSS*/
+.Spielfeld_Buttons{
+    color: black;
+    background-color: black;
+    font-size: 20px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+/* -----------------------------------------  EINSTELLUNGEN / KONFIGURATIONSFELDER  ---------------------------------------   */
+
+.Menu {
+    min-height: 600px;
+    float: left;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: black;
+}
+
+/*   Unterelement  Allg */
+.Kategorie {
+    margin: 10px;
+    padding: 5px;
+    background-color: gray;
+}
+
+/*   Unterelement  Infos */
+.Infos {
+    margin: 10px;
+    padding: 5px;
+    background-color: gray;
+}
+
+.Infos h2{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.Infos h1{
+    font-size: 15px;
+    color: white;
+    margin: 10px;
+}
+
+/*   Unterelement  Jokker */
+.Jokker {
+    background-color: gray;
+}
+
+.Jokker input{
+    color: black;
+    background-color: white;
+    font-size: 15px;
+    margin: 5px;
+    border-radius: 5px;
+ }
+
+.Jokker h2{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.Jokker h3{
+    font-size: 12px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.Jokker h4{
+    font-size: 15px;
+    color: white;
+    margin: 10px;
+    display: inline-block;
+}
+
+/*   Unterelement  Spielsteuerung */
+.Spielsteuerung {
+    background-color: gray;
+}
+
+.Spielsteuerung input{
+    color: black;
+    background-color: white;
+    font-size: 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.Spielsteuerung h2{
+    font-size: 20px;
+    margin: 10px;
+}
+
+/* -----------------------------------------  PUNKTEANZEIGE SEITE HISCORE ---------------------------------------   */
+
+.punkte_h1 {
+    color: red; /* KLASSE WIRD VON OBJEKT ÜBERSCHRIEBEN ////////////////////////////// */
+}
+
+.punktephp_h1 {
+    color: red; /* ERSATZNAME ////////////////////////////// */
+}
+
+.ButtonReturnGame {
+    color: black;
+    background-color: white;
+    font-size: 40px;
+    margin: 15px;
+    border-radius: 5px;
+    position: fixed;
+}
+
